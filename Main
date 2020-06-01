@@ -1,1 +1,39 @@
-#BME Final Code
+#!/usr/bin/env python3
+# Name: Sahasra Shankar (sshanka8)
+# Group Members: Shweta Jones and Pranav Muthuraman (shsujones and pmuthura)
+  #BME Final Code- Tabula Muris (UCSC GENOMICS)
+  
+class fileFields():
+    organName = ''
+    ontologyName = ''
+
+
+class filterTabula:
+   
+    def sortCellOnt(self):
+        pass
+
+    def sortMouseId(self):
+        pass
+
+    def fileParser(self):
+         FileReader
+         for every line
+             record = f.read()
+             recordObj = new fileFields(
+             organ_name = record.getColumnOrgan()
+             ontologyName = record.getOntologyName()
+             pushTo(record, organName, ontologyName)
+             recordObj =
+         writeFiles()
+
+    def pushToList(self, rec, organNm, ontologyNm):
+
+
+    def
+         fileNameToWrite = ('meta_{:s}.txt'.format(organName.lower(),ontologyNm.lower())
+          fw = open_the_file_write
+         fw.write(rec)
+
+def main():
+    pass
